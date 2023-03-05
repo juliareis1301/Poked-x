@@ -1,0 +1,308 @@
+/*reset css */
+html,
+body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    background-color: #f7f7f7;
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+
+    width: 1920px;
+    height: 1080px;
+    padding: 16px 16px 0px 16px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* horizontal    */
+    height: 32px;
+    
+}
+
+@media screen and (max-width:600px){
+
+    .body{
+        width: max-content;
+    }
+}
+
+*{
+    max-width: -webkit-fill-available;
+}
+
+.title-img {
+    position: absolute;
+   
+     
+}
+
+.title {
+    width:236px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    margin-left: 34px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight:700;    
+    font-size:24px;
+    line-height:32px;
+    color:rgba(33,33,33,1);
+
+}
+
+.title-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+    width:65px;
+}
+
+.search-box {
+    background: #FFFFFF;
+    border:1px solid #d8cfcf;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 4px 8px;
+
+    height: 24px;
+    width: 328px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.search-btn {
+    position: relative;
+    left: 145px;
+    display: flex;
+    text-align: center;
+
+}
+
+.search-txt {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    background: none;
+    padding: 1px ;
+    justify-content: center;
+    
+
+    font-family:"Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.pokemon-list {
+    margin-top: 16px;
+    display: flex;
+    
+}
+
+.pokemon-list2 {
+    margin-top: 8px;
+    display: flex;
+}
+
+.pokemon-list3 {
+    margin-top: 8px;
+    display: flex;
+}
+    
+
+/*pokemon card*/
+
+
+.pokemon-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 104px;
+    height: 112px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 8px;
+    position: relative; 
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+.pokemon-card:last-child {
+    margin: 0;
+}
+
+
+.pokemon-card__grass {
+    border: 1px #74CB48 solid;
+    
+}
+
+.pokemon-card__fire {
+    border: 1px rgba(245, 125, 49, 1) solid;
+}
+
+.pokemon-card__blue {
+    border: 1px #6493EB solid;
+}
+
+.pokemon-card__but {
+    border: 1px #A7B723 solid;
+    
+}
+
+.pokemon-card__pika {
+    border: 1px rgba(249,207,48,1) solid;
+
+}
+
+.pokemon-card__gas {
+    border: 1px rgba(112,85,155,1) solid;
+}
+
+.pokemon-card__dito {
+    border: 1px rgba(170,166,127,1) solid;
+}
+
+.pokemon-card__mew {
+    border: 1px rgba(251,85,132,1) solid;
+}
+
+.pokemon-card__ar {
+    border: 1px rgba(183,185,208,1) solid;
+}
+
+
+.code-box {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.code-bul {
+    color: rgba(116,203,72,1);
+}
+
+.code-char {
+    color:rgba(245,125,49,1);
+}
+
+.code-squir {
+    color:rgba(100,147,235,1);
+}
+
+.code-but {
+    color:rgba(167,183,35,1);
+}
+
+.code-pika {
+    color:rgba(249,207,48,1);
+}
+
+.code-gas {
+    color:rgba(112,85,155,1);
+}
+
+.code-ditto {
+    color:rgba(170,166,127,1);
+}
+
+.code-mew {
+    color:rgba(251,85,132,1);
+}
+
+.code-ar {
+    color:rgba(183,185,208,1);
+}
+
+.pokemon-image {
+    margin: 16px auto 0;
+    
+}
+
+.pokemon-card-footer {
+    height: 24px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.pokemon-card-footer__grass {
+    background-color: #74CB48;
+}
+
+.pokemon-card-footer__fire {
+    background-color: rgba(245, 125, 49, 1);
+}
+
+.pokemon-card-footer__blue {
+    background-color: #6493EB;
+}
+
+
+.pokemon-card-footer__but {
+    background-color: #A7B723;
+}
+
+.pokemon-card-footer__pika {
+    background-color:rgba(249,207,48,1) ;
+}
+
+.pokemon-card-footer__gas {
+    background-color: rgba(112,85,155,1);
+}
+
+.pokemon-card-footer__dito {
+    background-color: rgba(170,166,127,1);
+}
+
+.pokemon-card-footer__mew {
+    background-color: rgba(251,85,132,1);
+}
+
+.pokemon-card-footer__ar {
+    background-color: rgba(183,185,208,1);
+}
+
+
+.pokemon-name {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0;
+    color:#FFFFFF;
+}
+
