@@ -36,8 +36,13 @@ body {
 
 @media screen and (max-width:600px){
 
-    .body{
-        width: max-content;
+    body{
+        background-color: #f7f7f7;
+
+    }
+
+    .container{
+        top: 80px;
     }
 }
 
