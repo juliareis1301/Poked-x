@@ -9,18 +9,7 @@ body {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    
-    
-    
-    /*width: 100%;
-    height: 100%;
-    margin:0;
-    padding: 0;
-
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;*/
-    
+    align-items: center;
 }
 
 .container {
@@ -35,11 +24,6 @@ body {
 
     width: 360px;
     height: 640px;
-    /*background-color: #74CB48;
-
-    display: flex;
-    padding: 12px;
-    max-width: 1720px;  */
 }
 
 .header-title {
@@ -47,6 +31,10 @@ body {
     flex-direction: row;
     align-items:baseline;
     justify-content:space-around; /*responsavel pelo espaçamento entre seta,nome e cod*/
+}
+
+.seta {
+    cursor: pointer;
 }
 
 .name {
@@ -85,7 +73,7 @@ body {
 .icon {
     position: absolute;
     top: 8px;
-    left: 144px;
+    left: 135px;
    
 }
 
@@ -102,13 +90,14 @@ body {
     float: right;
     margin:20px;
     margin-top: 115px;
+    cursor:pointer;
 }
 
 .next2 {
     float: left;
     margin:20px;
     margin-top: 115px;
-    
+    cursor:pointer;
     
 }
 
