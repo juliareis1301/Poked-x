@@ -103,3 +103,9 @@ function backcard8 () {
   window.location.href = "Mew.html";
 }
 
+//ESCONDER "PESQUISAR"
+
+
+function esconderCampoPesquisa() {
+  this.style.display = 'none';
+}

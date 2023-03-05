@@ -95,7 +95,7 @@ body {
     align-items: flex-start;
     text-align: center;
     justify-content: center;
-    
+
 }
 
 .search-btn {
@@ -115,7 +115,7 @@ body {
     background: none;
     padding: 1px ;
     justify-content: center;
-    
+    width: 328px;
 
     font-family:"Poppins", sans-serif;
     font-style: normal;
