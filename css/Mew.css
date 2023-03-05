@@ -12,6 +12,15 @@ body {
     align-items: center;
 }
 
+
+@media screen and (max-width: 600px){
+    body{
+        background-color:#FB5584;
+    }
+}
+
+
+
 .container {
     background-color:#FB5584 ;
     display: flex;

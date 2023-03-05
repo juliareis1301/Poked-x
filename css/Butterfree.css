@@ -13,6 +13,12 @@ body {
     
 }
 
+@media screen and (max-width: 600px){
+    body{
+        background-color:   #A7B723;
+    }
+}
+
 .container {
     background-color: #A7B723;
     display: flex;

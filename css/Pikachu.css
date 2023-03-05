@@ -12,6 +12,13 @@ body {
     align-items: center;
 }
 
+@media screen and (max-width: 600px){
+    body{
+        background-color: rgba(249, 207, 48, 1);
+    }
+}
+
+
 .container {
     background-color:rgba(249, 207, 48, 1);
     display: flex;
