@@ -21,21 +21,91 @@
     <div class="container">
         <div class="header">
              <div class="header-title">
-                    <img src="Imagens\seta.branca.svg.svg" class="seta" width="17.5" height="17.3" ></img>
+                    <img src="Imagens\seta.branca.svg.svg" class="seta" width="17.5" height="17.3" onclick="back('index')"></img>
                     <h1 class="name">Charmander</h1>
                     <p class="code"> #002 </p>
              </div>
              <img src="Imagens\Pokeball-icon.png" class="icon" width="208px" height="208px">
         </div>
         <div>
-            <img src="Imagens\Cardcharmander.png" class="card" width="352px" height="412px">
+            <img src="Imagens\Vectorsetapoke.svg" class="next" width="7.91px" height="13.84px" onclick="next('Squirtle')">
+            <img src="Imagens\Vectorsetacontraria.svg" class="back-card" width="7.91px" height="13.84px" onclick="back('bulbasaur')">
+        </div>
+        <div>
+            <div class="card-container">
+                <div class="card-type">
+                    <div class="grass">Fire</div>
+                </div>
+                <h2 class="sobre">About</h2>
+                <div class="card-about">
+                    <div class="card-weight">
+                        <div class="balança">
+                            <img src="Imagens\Peso.png" width="16px" height="16px">
+                            <p style="width: 30px">8,5 Kg</p>
+                        </div>
+                        <p style="margin:0">Weight</p>
+                    </div>
+                    <div class="card-height">
+                        <div class="régua">
+                            <img src="Imagens\altura.png" width="8px" height="16px">
+                            <p style="width: 27px;/*height: auto; */white-space: nowrap;">0,6 m </p>
+                        </div>
+                        <p style="margin:0">Height</p>
+                    </div>
+                    <div class="card-movies">
+                        <p style="width: 57px" >Mega-Punch Fire-Punch</p>
+                    </div> 
+                </div>
+                <div class ="card-description">
+                    <p class="description">It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.</p>
+                </div>
+                <div class="card-status">
+                    <h2 class="base">Base Status</h2>
+                    <div>
+                        <div class="habilidades">
+                            <p>
+                                HP<br>
+                                ATK<br>
+                                DEF<br>
+                                SATK<br>
+                                SDEF<br>
+                                SPD<br> 
+                            </p>
+                        </div>
+                    </div>
+                        <div class="number">
+                            <p>
+                                039<br>
+                                052<br>
+                                043<br>
+                                060<br>
+                                050<br>
+                                065<br> 
+                            </p>
+                        </div>
+                    <div class="container-progress">
+                        <div class="progress-bar">
+                            <div class="progress1"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress2"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress3"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress4"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress5"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress6"></div>
+                        </div>
+                    </div>
         </div>
         <div>
             <img src="Imagens\image 15charmander.svg" class="pokemon-card" width="200px" height="200px">
-        </div>
-        <div>
-            <img src="Imagens\Vectorsetapoke.svg" class="next2" width="7.91px" height="13.84px" onclick="next2()">
-            <img src="Imagens\Vectorsetacontraria.svg" class="back-card" width="7.91px" height="13.84px" onclick="backcard()">
         </div>
     </div>
     <script src="JavaScript\pokedex.js"></script>
